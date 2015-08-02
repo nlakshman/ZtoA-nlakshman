@@ -1,0 +1,72 @@
+.digit {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-size: 400%;
+  font-family: Arial;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.digit:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.operation {
+  background: #f51616;
+  background-image: -webkit-linear-gradient(top, #f51616, #f00000);
+  background-image: -moz-linear-gradient(top, #f516116, #f00000);
+  background-image: -ms-linear-gradient(top, #f51616, #f00000);
+  background-image: -o-linear-gradient(top, #f51616, #f00000);
+  background-image: linear-gradient(to bottom, #f51616, #f00000);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-size: 400%;
+  font-family: Arial;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.operation:hover {
+  background: #e00000;
+  background-image: -webkit-linear-gradient(top, #e00000, #efffff);
+  background-image: -moz-linear-gradient(top, #e00000, #efffff);
+  background-image: -ms-linear-gradient(top, #e00000, #efffff);
+  background-image: -o-linear-gradient(top, #e00000, #efffff);
+  background-image: linear-gradient(to bottom, #e00000, #efffff);
+  text-decoration: none;}
+
+.LCDDisplay {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  font-size: 800%;
+  color: #000000;
+  background: #bdbdbd;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: right;
+ }
+ 
+ .row {
+  margin-bottom: -10px;
+ }
+ .fill {
+  min-height: 90%;
+  height: 90%;
+ }
